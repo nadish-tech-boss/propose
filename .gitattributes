@@ -1,0 +1,15 @@
+* text=auto
+
+# Linux launcher must keep LF, or "bad interpreter: ^M" on clone
+*.sh    text eol=lf
+*.py    text eol=lf
+*.html  text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+
+# cmd.exe labels/goto misbehave without CRLF
+*.bat   text eol=crlf
+
+*.png   binary
+*.jpg   binary
+*.gif   binary

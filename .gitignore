@@ -1,0 +1,13 @@
+# cloudflared is downloaded here on first run
+bin/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# editors, tools, OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
